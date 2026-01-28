@@ -1,0 +1,47 @@
+# -------------------------
+# Python / Django
+# -------------------------
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.log
+*.pot
+*.py~ 
+*.sqlite3
+db.sqlite3
+
+# Virtual environments
+env/
+venv/
+.venv/
+ENV/
+
+# Django environment files
+.env
+.env.*
+
+# -------------------------
+# Firebase / Secrets
+# -------------------------
+firebase/serviceAccountKey.json
+**/serviceAccountKey.json
+
+# -------------------------
+# Django media / static
+# -------------------------
+media/
+staticfiles/
+
+# -------------------------
+# IDE / Editor
+# -------------------------
+.idea/
+.vscode/
+*.iml
+
+# -------------------------
+# OS
+# -------------------------
+.DS_Store
+Thumbs.db
